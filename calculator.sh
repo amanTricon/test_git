@@ -16,14 +16,6 @@ multiply() {
 }
 
 # Function to perform division
-divide() {
-    if [ "$2" -eq 0 ]; then
-        echo "Error: Division by zero"
-    else
-        echo "scale=2; $1 / $2" | bc
-    fi
-}
-
 # Main script
 echo "Simple Shell Calculator"
 echo "Select operation:"
